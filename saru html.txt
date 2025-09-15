@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Science Student Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Jane Doe</h1>
+            <p>Science Student | Aspiring Researcher</p>
+            <nav>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="about" class="container">
+            <h2>About Me</h2>
+            <p>
+                I am a passionate science student eager to explore the frontiers of biology, physics, and chemistry. I love conducting experiments, learning new scientific concepts, and solving real-world problems.
+            </p>
+        </section>
+        <section id="projects" class="container">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>DNA Extraction Experiment</h3>
+                    <p>Designed and executed an experiment to extract DNA from strawberries using household items.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Physics Model: Projectile Motion</h3>
+                    <p>Created a working model to demonstrate the principles of projectile motion and analyzed the results.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Chemistry: pH Indicator from Red Cabbage</h3>
+                    <p>Developed a natural pH indicator and tested it on various substances to observe color changes.</p>
+                </div>
+            </div>
+        </section>
+        <section id="skills" class="container">
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li>Lab Techniques</li>
+                <li>Scientific Writing</li>
+                <li>Data Analysis</li>
+                <li>Team Collaboration</li>
+                <li>Public Speaking</li>
+                <li>Python (Basic)</li>
+            </ul>
+        </section>
+        <section id="contact" class="container">
+            <h2>Contact</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Jane Doe. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

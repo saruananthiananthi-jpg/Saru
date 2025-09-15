@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f4f8fb;
+    color: #1a2327;
+}
+
+header {
+    background: #2d5d7b;
+    color: #fff;
+    padding: 40px 0 20px 0;
+}
+
+header .container {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0 0 8px 0;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+}
+
+header p {
+    margin: 0 0 20px 0;
+    font-size: 1.15rem;
+    font-weight: 300;
+}
+
+nav a {
+    color: #e0eaf6;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+nav a:hover {
+    color: #ffcc00;
+}
+
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+h2 {
+    color: #2d5d7b;
+    font-size: 2rem;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #2d5d7b21;
+    padding-bottom: 5px;
+}
+
+.projects-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.project-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px #0001;
+    padding: 20px;
+    flex: 1 1 250px;
+    min-width: 230px;
+    max-width: 320px;
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    list-style: none;
+    padding: 0;
+}
+
+.skills-list li {
+    background: #e0eaf6;
+    color: #2d5d7b;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 1rem;
+    box-shadow: 0 1px 3px #0001;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 10px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px #0001;
+    max-width: 400px;
+}
+
+form label {
+    font-weight: 500;
+}
+
+form input, form textarea {
+    padding: 8px;
+    border: 1px solid #b7c6d1;
+    border-radius: 4px;
+    font-size: 1rem;
+    background: #f9fbfc;
+}
+
+form button {
+    background: #2d5d7b;
+    color: #fff;
+    border: none;
+    padding: 10px 0;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+form button:hover {
+    background: #ffcc00;
+    color: #2d5d7b;
+}
+
+footer {
+    background: #2d5d7b;
+    color: #fff;
+    text-align: center;
+    padding: 18px 0;
+    margin-top: 60px;
+}
+
+@media (max-width: 700px) {
+    .projects-grid {
+        flex-direction: column;
+    }
+    header h1 {
+        font-size: 2rem;
+    }
+    .container {
+        margin: 24px auto;
+    }
+}
